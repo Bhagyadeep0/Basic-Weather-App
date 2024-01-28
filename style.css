@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+body{
+    background-color: #2a2a2a;
+}
+
+.mainBox {
+    background: linear-gradient(90deg, rgb(0, 179, 255) 30%, rgb(25, 104, 206) 100%);
+    width: max-content;
+    margin: 10px auto 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    margin: 5px 10px;
+    padding: 6px 12px;
+    background: #f3f3f3;
+    color: #a2a2a2;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: none;
+    
+}
+
+#search {
+    width: 40px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.menu img {
+    width: 40%;
+    margin: 10px 0;
+}
+.temp{
+    color: white;
+    font-weight: 800;
+    margin-bottom: 10px ;
+}
+.city{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 30px;
+    margin: 5px 10px;
+}
+.col .humidity, .col .wind, .col p {
+    color: #fff;
+    font-size: 15px;
+    margin: 5px 2px;
+    font-weight: 400;
+}
+.weather{
+    display: none;
+}
+.error{
+    display: none;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    margin: 5px 10px;
+}
