@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: "Merriweather", serif;
 }
 body{
     background-color: #2a2a2a;
@@ -92,8 +94,8 @@ input:focus {
 }
 .error{
     display: none;
-    text-align: left;
-    font-size: 15px;
+    text-align: center;
+    font-size: 35px;
     font-weight: 400;
     color: white;
     padding: 10px;
