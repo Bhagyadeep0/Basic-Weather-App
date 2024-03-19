@@ -19,7 +19,7 @@ This Weather App is a simple web application built with HTML, CSS, and JavaScrip
 3. Open the `index.html` file in a web browser.
 
 ## Preview:
-![Weather App Screenshot](./images/ss1.png)
+![Weather App Screenshot](./images/ss1.png)<br>
 ![Weather App Screenshot](./images/ss.png)
 
 
