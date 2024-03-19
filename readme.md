@@ -2,6 +2,9 @@
 
 This Weather App is a simple web application built with HTML, CSS, and JavaScript. It utilizes the OpenWeather API to fetch current weather data based on user input location. The app displays essential weather information like temperature, humidity, wind speed, and weather description.
 
+## Live Demo:
+https://bhagyadeep0.github.io/Basic-Weather-App/
+
 ## Features:
 - **Current Weather Display**: Provides real-time weather information for the entered location.
 - **Responsive Design**: Ensures the app is accessible and functional across various devices and screen sizes.
@@ -19,12 +22,13 @@ This Weather App is a simple web application built with HTML, CSS, and JavaScrip
 3. Open the `index.html` file in a web browser.
 
 ## Preview:
-![Weather App Screenshot](./images/ss1.png)<br>
-![Weather App Screenshot](./images/ss.png)
+<p align="center">
+  <img src="./images/ss1.png" alt="Weather App Screenshot">
+</p>
+<p align="center">
+  <img src="./images/ss.png" alt="Weather App Screenshot">
+</p>
 
-
-## Live Demo:
-https://bhagyadeep0.github.io/Basic-Weather-App/
 
 ## Credits:
 - **OpenWeather API**: Used for fetching weather data.
