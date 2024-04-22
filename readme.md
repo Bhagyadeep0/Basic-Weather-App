@@ -18,7 +18,7 @@ https://bhagyadeep0.github.io/Basic-Weather-App/
 
 ## Usage:
 1. Clone the repository to your local machine.
-2. Obtain an API key from [OpenWeather](https://openweathermap.org/) and replace `'YOUR_API_KEY'` in the `script.js` file with your API key.
+2. Obtain an API key from [OpenWeather](https://openweathermap.org/) and replace `'YOUR_API_KEY'` in the `app.js` file with your API key.
 3. Open the `index.html` file in a web browser.
 
 ## Preview:
